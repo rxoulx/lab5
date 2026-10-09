@@ -77,35 +77,26 @@ th.bovien
 
             <h1>Student Regiter Form</h1>
 
-            <form id="register_form">
+            <form id="register_form" action="student" method="post">
+    <div class="form_group">
+        <label for="sname">Student name</label>
+        <input id="sname" name="stname" required/>
+    </div>
 
-            
+    <div class="form_group">
+        <label for="course">Course</label>
+        <input id="course" name="course" required/>
+    </div>
 
-                    <div class="form_group">
-                        <label for="sname">Student name</label>
-                        <input id="sname"/>
-                    </div>
+    <div class="form_group">
+        <label for="fee">Fee</label>
+        <input id="fee" name="fee" type="number" required/>
+    </div>
 
-
-                     <div class="form_group">
-                        <label for="course">Course</label>
-                        <input id="course"/>
-                    </div>
-
-
-                     <div class="form_group">
-                        <label for="fee">Fee</label>
-                        <input id="fee"/>
-                    </div>
-
-
-                    
-
-
-                    <div>
-                        <button type="submit">Submit</button>
-                    </div>
-                </form>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
 
         </div>
 

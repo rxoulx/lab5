@@ -1,5 +1,9 @@
-/workspaces/dhv_web_th4/lab_3/src/main/java/context/DBContext.java
-/workspaces/dhv_web_th4/lab_3/src/main/java/dao/ProductDAO.java
-/workspaces/dhv_web_th4/lab_3/src/main/java/model/Product.java
-/workspaces/dhv_web_th4/lab_3/src/main/java/servlet/SqlInjectionFilter.java
-/workspaces/dhv_web_th4/lab_3/src/main/java/servlet/StudentServlet.java
+/workspaces/lab5/lab5/src/main/java/context/DBContext.java
+/workspaces/lab5/lab5/src/main/java/context/DBContext1.java
+/workspaces/lab5/lab5/src/main/java/controller/ListProductServlet.java
+/workspaces/lab5/lab5/src/main/java/dao/ProductDAO.java
+/workspaces/lab5/lab5/src/main/java/dao/RecordDAO.java
+/workspaces/lab5/lab5/src/main/java/model/Product.java
+/workspaces/lab5/lab5/src/main/java/model/Record.java
+/workspaces/lab5/lab5/src/main/java/servlet/SqlInjectionFilter.java
+/workspaces/lab5/lab5/src/main/java/servlet/StudentServlet.java

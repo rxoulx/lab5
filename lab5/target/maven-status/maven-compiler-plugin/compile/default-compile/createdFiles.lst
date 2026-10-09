@@ -3,3 +3,7 @@ dao/ProductDAO.class
 servlet/SqlInjectionFilter.class
 servlet/StudentServlet.class
 model/Product.class
+controller/ListProductServlet.class
+context/DBContext1.class
+model/Record.class
+dao/RecordDAO.class

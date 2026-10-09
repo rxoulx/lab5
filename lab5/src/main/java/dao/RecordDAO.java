@@ -53,5 +53,16 @@ public class RecordDAO {
     return list;
 }
 
-   
+   public void insertRecord(String stname, String course, int fee) {
+    String sql = "INSERT INTO records (stname, course, fee) VALUES (?, ?, ?)";
+    try (java.sql.Connection conn = new context.DBContext1().getConnection();
+         java.sql.PreparedStatement ps = conn.prepareStatement(sql)) {
+        ps.setString(1, stname);
+        ps.setString(2, course);
+        ps.setInt(3, fee);
+        ps.executeUpdate();
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+}
 }
